@@ -7,6 +7,7 @@
 # elements of the iterable object iterable until an element equal to obj is 
 # reached. If the iterable object iterable does not contain any element 
 # equal to obj, the generator must generate all elements of iterable.
+# UPGRADED
 
 def stop_on(itebale, obj):
     for el in itebale:
