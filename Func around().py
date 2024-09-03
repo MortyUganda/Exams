@@ -6,6 +6,7 @@
 # (<previous element>, <next element>, <next element>)
 # For the first element, the previous value is None, for the last element, the next value is also None.
 
+
 def around(iterable, prev=None):
     try:
         iterable = iter(iterable)

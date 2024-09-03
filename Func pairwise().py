@@ -7,6 +7,7 @@
 # For the last element, the next value is None.
 from typing import Iterable, Generator
 
+
 def pairwise(iterable: Iterable, pair=None) -> Generator:
     try:
         iterable = iter(iterable)
