@@ -6,6 +6,7 @@
 # (<next element>, <previous element>).
 # For the first element, the value None is considered to be the previous element. -->
 
+
 def with_previous(iterable):
     start = None
     for el in iterable:
