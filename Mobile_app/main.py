@@ -31,6 +31,7 @@ class StressCanvasApp(App):
         count = int(label.text)
         self.add_rects(label, wid, count, *largs)
 
+
     def reset_rects(self, label, wid, *largs):
         label.text = '0'
         wid.canvas.clear()
