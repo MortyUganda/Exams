@@ -1,6 +1,8 @@
 {
-    "azn":{
-        "КНС110":"htttps://google.com"
+    "АЗН":{
+        "КНС110":"https://google.com"
     },
-    "sdf":{}
+    "БН":{
+        "КНС25": "https://google.com"
+    }
 }
