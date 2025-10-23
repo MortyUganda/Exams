@@ -10,12 +10,12 @@
 import re
 import sys
 
-pattern = r'(\w+)\1'
+pattern = r'\b(\w+)\1\b'
 
 for el in sys.stdin:
     res = re.match(pattern, el)
     if res:
-        print(res.group)
+        print(res.group())
 
 # Sample Input 1:
 
